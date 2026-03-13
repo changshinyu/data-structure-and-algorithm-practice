@@ -32,11 +32,78 @@ public:
     }
 
     // 優先權函式
-    int p(String^ op) { /*...*/ return 0; }
-    int q(String^ op) { /*...*/ return 0; }
+    int q(String^ op)
+	{
+		if ((op == "+") || (op == "-"))
+			return 3;
+		if ((op == "*") || (op == "/"))
+			return 4;
+		if ((op == "^") || (op == "&") || (op == "|"))
+			return 5;
+		if ((op == "("))
+			return 1;
+		if ((op == "#"))
+			return 0;
+		return -99;
+	}
+	int p(String^ op)
+	{
+		if ((op == "+") || (op == "-"))
+			return 3;
+		if ((op == "*") || (op == "/"))
+			return 4;
+		if ((op == "^") || (op == "&") || (op == "|"))
+			return 5;
+		if ((op == "("))
+			return 1;
+		if ((op == "#"))
+			return 0;
+		return -99;
+	}
 
-    void push(int flag, String^ data) { /*...*/ }
-    String^ pop(int flag) { /*...*/ }
+	void push(int flag, String^ data)
+	{
+		switch (flag)
+		{
+		case (1):
+			if (top == max_size - 1)
+				richTextBox1->Text += "Full\n";
+			else
+				Stack[++top] = data;
+			break;
+		case (2):
+
+			if (top_another == max_size - 1)
+				richTextBox1->Text += "Full\n";
+			else
+				Stack_another[++top_another] = data;
+			break;
+		}
+	}
+
+	String^ pop(int flag)
+	{
+		switch (flag)
+		{
+		case (1):
+			if (top == -1) {
+				richTextBox1->Text += "Empty\n";
+				return "";
+			}
+			else
+				return Stack[top--];
+			break;
+		case (2):
+			if (top_another == -1) {
+				richTextBox1->Text += "Empty\n";
+				return "";
+			}
+			else
+				return Stack_another[top_another--];
+			break;
+		}
+		return "";
+	}
 
     // 中序 → 後序
     String^ Infix2Postfix(String^ infix)
