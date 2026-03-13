@@ -8,11 +8,15 @@ It supports:
 - Visual drawing of the BST
 - Clearing the tree
 
+---
+
 ## Features
 
 - **BST Operations**: Recursive and iterative traversals
 - **Visualization**: Nodes drawn in a panel, with edges and values
 - **Interactive**: Insert values, delete nodes, traverse tree, visualize
+
+---
 
 ## Usage
 
