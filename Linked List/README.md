@@ -1,4 +1,4 @@
-# Linked Structures GUI (Singly, Doubly, Stack, Queue)
+# Linked List (Singly, Doubly, Stack, Queue)
 
 A **C++/CLI Windows Forms application** for practicing and visualizing common **linked structures**:
 
