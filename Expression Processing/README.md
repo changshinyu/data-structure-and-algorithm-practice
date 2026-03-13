@@ -25,16 +25,7 @@ It supports basic arithmetic operators (`+`, `-`, `*`, `/`, `^`) and logical ope
 
 ---
 
-## Getting Started
-
 ### Prerequisites
 
 - Microsoft Visual Studio (supports C++/CLI)
 - Windows OS (Windows Forms GUI)
-
-### Running the Program
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/<your-username>/infix-postfix-prefix.git
