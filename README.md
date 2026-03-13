@@ -1,27 +1,55 @@
-# Data Structure and Algorithm Practice
+# Data Structures and Algorithms Practice
 
-This repository contains my practice programs implemented in C++ during Data Structure and Algorithm courses.
+This repository contains my practice programs developed during Data Structures and Algorithms courses.  
+The implementations focus on fundamental algorithms, classic data structures, and problem-solving techniques.
 
-Contents include:
+All programs were written as course assignments to strengthen understanding of algorithm design and data structure concepts.
 
-Sorting Algorithms
+## Programming Language
+C++/CLI (Windows Forms)
+
+## Contents
+
+### Sorting Algorithms
 - Bubble Sort
 - Selection Sort
 - Insertion Sort
 - Quick Sort
+- Heap Sort
+- Merge Sort
+- Radix Sort
 
-Linked List
-Binary Search Tree
+### Data Structures
+- Stack
+- Queue
+- Linked List
+- Binary Search Tree
 
-Expression Processing
+### Expression Processing
 - Infix / Prefix / Postfix conversion
+- Expression evaluation using stack
 
-Recursion Problems
-- Magic Square
-- Maze
+### Recursion Problems
+- Magic Square generator
+- Rat in a Maze (pathfinding)
 
-Shortest Path
+### Graph Algorithms
+- Shortest Path (Dijkstra / Floyd / Warshall)
+- Graph traversal
 
-Language: C++
+### GUI Projects (Windows Forms, C++/CLI)
+- Maze generator and pathfinding
+- Magic Square generator
+- Sorting algorithm visualizer
+- Expression converter (Infix / Prefix / Postfix)
 
-These programs were implemented as course assignments to practice basic data structures, algorithms, and problem solving skills.
+## Purpose
+
+These programs were implemented to practice:
+
+- Fundamental data structures
+- Classic algorithms
+- Recursion and backtracking
+- Graph algorithms
+- Problem solving skills
+- GUI programming with Windows Forms
