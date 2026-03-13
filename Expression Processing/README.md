@@ -24,8 +24,9 @@ It supports basic arithmetic operators (`+`, `-`, `*`, `/`, `^`) and logical ope
 *(Replace `screenshot.png` with an actual image from your GUI)*
 
 ---
+## Getting Started
 
-## Prerequisites
+### Prerequisites
 
 - Microsoft Visual Studio (supports C++/CLI)
 - Windows OS (Windows Forms GUI)
