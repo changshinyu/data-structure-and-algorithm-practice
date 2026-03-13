@@ -55,8 +55,3 @@ It provides **GUI controls** to insert, delete, search, reverse, and display dat
 - **Microsoft Visual Studio** (supports C++/CLI)
 - Windows OS (Windows Forms GUI)
 
-### Usage
-1. Clone the repository:
-
-```bash
-git clone https://github.com/<your-username>/LinkedStructuresGUI.git
