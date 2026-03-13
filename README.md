@@ -1,4 +1,3 @@
-# data-structure-and-algorithm-practice
 # Data Structure and Algorithm Practice
 
 This repository contains my practice programs implemented in Java during Data Structure and Algorithm courses.
