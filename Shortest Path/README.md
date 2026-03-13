@@ -20,6 +20,5 @@ It includes:
 
 1. Open in Visual Studio.
 2. Create a Windows Forms project.
-3. Replace the Form code with `GraphForm.cpp`.
-4. Build and run.
-5. Use the buttons to load a file, generate a random graph, or run algorithms.
+3. Build and run.
+4. Use the buttons to load a file, generate a random graph, or run algorithms.
