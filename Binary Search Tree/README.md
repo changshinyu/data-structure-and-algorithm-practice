@@ -17,6 +17,4 @@ It supports:
 ## Usage
 
 1. Open in Visual Studio.
-2. Create a Windows Forms project and replace `Form.cpp` content with `BSTForm.cpp`.
-3. Build and run.
-4. Use text boxes and buttons to interact with the BST.
+2. Use text boxes and buttons to interact with the BST.
