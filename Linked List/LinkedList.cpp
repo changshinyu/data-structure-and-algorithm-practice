@@ -276,7 +276,7 @@ namespace Project5 {
 
     // GUI initialization
     void InitializeComponent() {
-        // TODO: Add Windows Forms components initialization here
+        
     }
 };
 } 
