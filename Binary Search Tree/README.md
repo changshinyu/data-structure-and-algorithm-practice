@@ -1,6 +1,6 @@
-# Binary Search Tree GUI (C++/CLI)
+# Binary Search Tree (C++/CLI)
 
-This project demonstrates a Binary Search Tree (BST) implemented in C++/CLI with a Windows Forms GUI.  
+This project demonstrates a Binary Search Tree (BST) implemented in C++/CLI.  
 It supports:
 
 - Insert, Delete, Search
