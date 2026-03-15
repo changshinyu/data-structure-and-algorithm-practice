@@ -16,9 +16,8 @@ It includes:
 - Tab control for different algorithm results
 - Optional text output to TextBox for logs
 
-## Usage
+## Getting Started
 
-1. Open in Visual Studio.
-2. Create a Windows Forms project.
-3. Build and run.
-4. Use the buttons to load a file, generate a random graph, or run algorithms.
+### Prerequisites
+- **Microsoft Visual Studio** (supports C++/CLI)
+- Windows OS (Windows Forms GUI)
