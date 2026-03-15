@@ -22,3 +22,4 @@ It supports basic arithmetic operators (`+`, `-`, `*`, `/`, `^`) and logical ope
 ### Prerequisites
 
 - Microsoft Visual Studio (supports C++/CLI)
+- - Windows OS (Windows Forms GUI)
