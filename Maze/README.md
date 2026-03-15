@@ -10,16 +10,14 @@ The program provides the following features:
 - Automatic pathfinding
 - Different colors for walls, path, start, and end points
 
-## How to Use
-1. Open Visual Studio.
-2. Load the `MazeProject.sln` solution.
-3. Build and run the program.
-4. Enter the maze width, height, and cell size.
-5. Click `Generate Maze` to create a maze.
-6. Click `Find Path` to start pathfinding.
-7. You can save the maze to a `.txt` file or load a `.txt` file.
+## Getting Started
 
-## Project Structure
-- `MyForm.h` : Main GUI and maze logic
-- `Program.cpp` : Program entry point
-- `MazeHelpers.h` : Maze structures and direction settings
+### Prerequisites
+- **Microsoft Visual Studio** (supports C++/CLI)
+- Windows OS (Windows Forms GUI)
+
+### How to Use
+1. Enter the maze width, height, and cell size.
+2. Click `Generate Maze` to create a maze.
+3. Click `Find Path` to start pathfinding.
+4. You can save the maze to a `.txt` file or load a `.txt` file.
