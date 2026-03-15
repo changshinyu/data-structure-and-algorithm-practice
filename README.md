@@ -37,12 +37,6 @@ C++/CLI (Windows Forms)
 - Shortest Path (Dijkstra / Floyd / Warshall)
 - Graph traversal
 
-### GUI Projects (Windows Forms, C++/CLI)
-- Maze generator and pathfinding
-- Magic Square generator
-- Sorting algorithm visualizer
-- Expression converter (Infix / Prefix / Postfix)
-
 ## Purpose
 
 These programs were implemented to practice:
