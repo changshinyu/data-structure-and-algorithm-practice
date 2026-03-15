@@ -19,7 +19,7 @@ namespace Project7 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// MyForm ªººK­n
+	/// MyForm çš„æ‘˜è¦
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -28,13 +28,13 @@ namespace Project7 {
 		{
 			InitializeComponent();
 			//
-			//TODO:  ¦b¦¹¥[¤J«Øºc¨ç¦¡µ{¦¡½X
+			//TODO:  åœ¨æ­¤åŠ å…¥å»ºæ§‹å‡½å¼ç¨‹å¼ç¢¼
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// ²M°£¥ô¦ó¨Ï¥Î¤¤ªº¸ê·½¡C
+		/// æ¸…é™¤ä»»ä½•ä½¿ç”¨ä¸­çš„è³‡æºã€‚
 		/// </summary>
 		~MyForm()
 		{
@@ -45,37 +45,6 @@ namespace Project7 {
 		}
 
 	protected:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	private: System::Windows::Forms::Button^ button5;
 	private: System::Windows::Forms::Button^ button4;
@@ -116,36 +85,16 @@ namespace Project7 {
 	private: System::Windows::Forms::DataGridView^ dataGridView5;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	private:
 		/// <summary>
-		/// ³]­p¤u¨ã©Ò»İªºÅÜ¼Æ¡C
+		/// è¨­è¨ˆå·¥å…·æ‰€éœ€çš„è®Šæ•¸ã€‚
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// ¦¹¬°³]­p¤u¨ã¤ä´©©Ò»İªº¤èªk - ½Ğ¤Å¨Ï¥Îµ{¦¡½X½s¿è¾¹­×§ï
-		/// ³o­Ó¤èªkªº¤º®e¡C
+		/// æ­¤ç‚ºè¨­è¨ˆå·¥å…·æ”¯æ´æ‰€éœ€çš„æ–¹æ³• - è«‹å‹¿ä½¿ç”¨ç¨‹å¼ç¢¼ç·¨è¼¯å™¨ä¿®æ”¹
+		/// é€™å€‹æ–¹æ³•çš„å…§å®¹ã€‚
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -203,7 +152,7 @@ namespace Project7 {
 			// 
 			// button5
 			// 
-			this->button5->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->button5->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->button5->Location = System::Drawing::Point(31, 883);
 			this->button5->Margin = System::Windows::Forms::Padding(5);
@@ -216,7 +165,7 @@ namespace Project7 {
 			// 
 			// button4
 			// 
-			this->button4->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->button4->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->button4->Location = System::Drawing::Point(31, 817);
 			this->button4->Margin = System::Windows::Forms::Padding(5);
@@ -230,7 +179,7 @@ namespace Project7 {
 			// label7
 			// 
 			this->label7->AutoSize = true;
-			this->label7->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label7->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->label7->Location = System::Drawing::Point(25, 650);
 			this->label7->Margin = System::Windows::Forms::Padding(5, 0, 5, 0);
@@ -244,7 +193,7 @@ namespace Project7 {
 			this->checkBox2->AutoSize = true;
 			this->checkBox2->Checked = true;
 			this->checkBox2->CheckState = System::Windows::Forms::CheckState::Checked;
-			this->checkBox2->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->checkBox2->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->checkBox2->Location = System::Drawing::Point(248, 563);
 			this->checkBox2->Margin = System::Windows::Forms::Padding(5);
@@ -257,7 +206,7 @@ namespace Project7 {
 			// checkBox1
 			// 
 			this->checkBox1->AutoSize = true;
-			this->checkBox1->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->checkBox1->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->checkBox1->Location = System::Drawing::Point(42, 563);
 			this->checkBox1->Margin = System::Windows::Forms::Padding(5);
@@ -269,7 +218,7 @@ namespace Project7 {
 			// 
 			// button3
 			// 
-			this->button3->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->button3->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->button3->Location = System::Drawing::Point(31, 745);
 			this->button3->Margin = System::Windows::Forms::Padding(5);
@@ -292,7 +241,7 @@ namespace Project7 {
 			// label8
 			// 
 			this->label8->AutoSize = true;
-			this->label8->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label8->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->label8->Location = System::Drawing::Point(37, 426);
 			this->label8->Margin = System::Windows::Forms::Padding(5, 0, 5, 0);
@@ -340,7 +289,7 @@ namespace Project7 {
 			// label6
 			// 
 			this->label6->AutoSize = true;
-			this->label6->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label6->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->label6->Location = System::Drawing::Point(37, 376);
 			this->label6->Margin = System::Windows::Forms::Padding(5, 0, 5, 0);
@@ -352,7 +301,7 @@ namespace Project7 {
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label5->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->label5->Location = System::Drawing::Point(37, 320);
 			this->label5->Margin = System::Windows::Forms::Padding(5, 0, 5, 0);
@@ -364,7 +313,7 @@ namespace Project7 {
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label4->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->label4->Location = System::Drawing::Point(37, 257);
 			this->label4->Margin = System::Windows::Forms::Padding(5, 0, 5, 0);
@@ -376,7 +325,7 @@ namespace Project7 {
 			// label3
 			// 
 			this->label3->AutoSize = true;
-			this->label3->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label3->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->label3->Location = System::Drawing::Point(37, 195);
 			this->label3->Margin = System::Windows::Forms::Padding(5, 0, 5, 0);
@@ -388,7 +337,7 @@ namespace Project7 {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label2->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->label2->Location = System::Drawing::Point(37, 142);
 			this->label2->Margin = System::Windows::Forms::Padding(5, 0, 5, 0);
@@ -400,7 +349,7 @@ namespace Project7 {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->label1->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 10.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->label1->Location = System::Drawing::Point(36, 24);
 			this->label1->Margin = System::Windows::Forms::Padding(5, 0, 5, 0);
@@ -411,7 +360,7 @@ namespace Project7 {
 			// 
 			// button2
 			// 
-			this->button2->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->button2->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->button2->Location = System::Drawing::Point(42, 483);
 			this->button2->Margin = System::Windows::Forms::Padding(5);
@@ -424,7 +373,7 @@ namespace Project7 {
 			// 
 			// button1
 			// 
-			this->button1->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->button1->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->button1->Location = System::Drawing::Point(175, 63);
 			this->button1->Margin = System::Windows::Forms::Padding(5);
@@ -438,7 +387,7 @@ namespace Project7 {
 			// checkBox3
 			// 
 			this->checkBox3->AutoSize = true;
-			this->checkBox3->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->checkBox3->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->checkBox3->Location = System::Drawing::Point(31, 701);
 			this->checkBox3->Margin = System::Windows::Forms::Padding(5);
@@ -499,7 +448,7 @@ namespace Project7 {
 			this->tabControl1->Controls->Add(this->tabPage5);
 			this->tabControl1->Controls->Add(this->tabPage6);
 			this->tabControl1->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->tabControl1->Font = (gcnew System::Drawing::Font(L"·L³n¥¿¶ÂÅé", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+			this->tabControl1->Font = (gcnew System::Drawing::Font(L"å¾®è»Ÿæ­£é»‘é«”", 9, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(136)));
 			this->tabControl1->Location = System::Drawing::Point(464, 0);
 			this->tabControl1->Margin = System::Windows::Forms::Padding(5);
@@ -762,7 +711,7 @@ void AllpairsTable(System::Windows::Forms::DataGridView^ dgv, const std::vector<
 		dgv->Columns[i]->HeaderCell->Value = i.ToString();
 		for (int j = 0; j < n; ++j) {
 			if (next[i][j] == -1)
-				dgv->Rows[i]->Cells[j]->Value = "¡Û";
+				dgv->Rows[i]->Cells[j]->Value = "âˆ";
 			else
 				dgv->Rows[i]->Cells[j]->Value = next[i][j].ToString();
 		}
@@ -927,12 +876,12 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 		return;
 	}
 
-	// ©I¥s Allpairs
+	// å‘¼å« Allpairs
 	std::vector<std::vector<int>> shortestDistances(n, std::vector<int>(n, INT_MAX));
 	std::vector<std::vector<int>> next(n, std::vector<int>(n, -1));
 	Allpairs(G, n, shortestDistances, next);
 
-	// Åã¥Ü³Ìµu¶ZÂ÷¦b dataGridView3
+	// é¡¯ç¤ºæœ€çŸ­è·é›¢åœ¨ dataGridView3
 	dataGridView3->RowCount = n;
 	dataGridView3->ColumnCount = n;
 	dataGridView3->AutoSizeColumnsMode = System::Windows::Forms::DataGridViewAutoSizeColumnsMode::AllCells;
@@ -941,19 +890,19 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 		dataGridView3->Columns[i]->HeaderCell->Value = i.ToString();
 		for (int j = 0; j < n; j++) {
 			if (shortestDistances[i][j] == INT_MAX)
-				dataGridView3->Rows[i]->Cells[j]->Value = "¡Û";
+				dataGridView3->Rows[i]->Cells[j]->Value = "âˆ";
 			else
 				dataGridView3->Rows[i]->Cells[j]->Value = shortestDistances[i][j];
 		}
 	}
 
-	// Åã¥Ü next ªí®æ¦b dataGridView4¡]¨Ï¥Î AllpairsTable¡^
+	// é¡¯ç¤º next è¡¨æ ¼åœ¨ dataGridView4ï¼ˆä½¿ç”¨ AllpairsTableï¼‰
 	dataGridView4->RowCount = n;
 	dataGridView4->ColumnCount = n;
 	dataGridView4->AutoSizeColumnsMode = System::Windows::Forms::DataGridViewAutoSizeColumnsMode::AllCells;
 	AllpairsTable(dataGridView4, next);
 
-	// Åã¥Ü Floyd-Warshall µ²ªG¨ì textBox5¡]¥i¿ï¡^
+	// é¡¯ç¤º Floyd-Warshall çµæœåˆ° textBox5ï¼ˆå¯é¸ï¼‰
 	if (checkBox3->Checked) {
 		textBox5->AppendText("=== Floyd-Warshall Results ===\r\n");
 		for (int i = 0; i < n; i++) {
@@ -971,7 +920,7 @@ private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e
 		for (int i = 0; i < n; i++) {
 			for (int j = 0; j < n; j++) {
 				if (next[i][j] == -1)
-					textBox5->AppendText("¡Û\t");
+					textBox5->AppendText("âˆ\t");
 				else
 					textBox5->AppendText(next[i][j] + "\t");
 			}
