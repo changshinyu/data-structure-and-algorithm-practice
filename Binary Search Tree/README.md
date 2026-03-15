@@ -18,7 +18,7 @@ It supports:
 
 ---
 
-## Usage
-
-1. Open in Visual Studio.
-2. Use text boxes and buttons to interact with the BST.
+Getting Started
+Prerequisites
+Microsoft Visual Studio (supports C++/CLI)
+Windows OS (Windows Forms GUI)
