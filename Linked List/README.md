@@ -42,13 +42,6 @@ It provides **GUI controls** to insert, delete, search, reverse, and display dat
 
 ---
 
-## Screenshots
-
-![GUI Screenshot](screenshot.png)  
-*Replace with your actual GUI screenshot*
-
----
-
 ## Getting Started
 
 ### Prerequisites
