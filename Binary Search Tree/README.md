@@ -18,7 +18,9 @@ It supports:
 
 ---
 
-Getting Started
-Prerequisites
-Microsoft Visual Studio (supports C++/CLI)
-Windows OS (Windows Forms GUI)
+## Getting Started
+
+### Prerequisites
+- **Microsoft Visual Studio** (supports C++/CLI)
+- Windows OS (Windows Forms GUI)
+
